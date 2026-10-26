@@ -14,6 +14,7 @@ contact.html          Contact details + quote form
 assets/css/site.css   All styling (no framework)
 assets/js/site.js     Nav toggle, scroll reveal, quote form (sms / WhatsApp compose)
 assets/img/           Logo lockups (SVG) and favicon
+assets/img/photos/    Site photography (JPEG + WebP), sourced from Pexels under the Pexels licence (free for commercial use, no attribution required)
 ```
 
 No build step, no dependencies, no backend. The quote form composes a text or WhatsApp message locally — nothing is stored or transmitted by the site.
