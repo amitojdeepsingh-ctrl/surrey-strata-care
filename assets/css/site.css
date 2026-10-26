@@ -131,7 +131,12 @@ li { margin-bottom: .45em; }
 /* ---------- hero ---------- */
 .hero {
   position: relative; overflow: hidden; color: #fff;
-  background: #14283F url("../img/photos/hero-corridor.jpg") center / cover no-repeat;
+  background-color: #14283F;
+  background-image: url("../img/photos/hero-corridor.jpg");
+  background-image: image-set(url("../img/photos/hero-corridor.webp") type("image/webp"), url("../img/photos/hero-corridor.jpg") type("image/jpeg"));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hero::before {
   content: ""; position: absolute; inset: 0; pointer-events: none;
