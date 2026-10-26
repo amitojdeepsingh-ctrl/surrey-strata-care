@@ -61,12 +61,12 @@
   var note = document.getElementById("form-note");
 
   function buildMessage() {
-    var name = form.name.value.trim();
-    var phone = form.phone.value.trim();
-    var address = form.address.value.trim();
-    var service = form.service.value;
-    var size = form.size.value.trim();
-    var notes = form.notes.value.trim();
+    var name = form.elements["name"].value.trim();
+    var phone = form.elements["phone"].value.trim();
+    var address = form.elements["address"].value.trim();
+    var service = form.elements["service"].value;
+    var size = form.elements["size"].value.trim();
+    var notes = form.elements["notes"].value.trim();
 
     var lines = [
       "Quote request - Surrey Strata & Commercial Care",
